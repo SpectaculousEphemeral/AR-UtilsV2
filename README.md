@@ -9,4 +9,4 @@ local utils = loadstring(game:HttpGet("https://raw.githubusercontent.com/Storm99
 utils.DisableAC()
 -- Let BH execute after a second.
 task.wait(1)
-utils.ExecuteBH()```
+utils.ExecuteBH()
