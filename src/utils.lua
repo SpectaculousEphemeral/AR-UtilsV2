@@ -1,4 +1,6 @@
-function DisableAC()
+local module = {}
+
+function module.DisableAC()
   
 
 
@@ -99,3 +101,5 @@ end
 game.CorePackages.Packages:Destroy()
 
 end
+
+return module
