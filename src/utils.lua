@@ -103,7 +103,7 @@ game.CorePackages.Packages:Destroy()
 end
 
 -- Execute BoltsHub (bypassed one)
-module.ExecuteBH()
+function module.ExecuteBH()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Storm99999/AR-UtilsV2/main/src/assets/ac_disabled_bh.lua"))()
 end
 
