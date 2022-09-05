@@ -14,7 +14,7 @@ function module.DisableAC()
 
 local player = game.Players.LocalPlayer
 local storage = game.ReplicatedStorage
-local dirtyRemotes = {"NewYear", "hmm", "Whizz", "Kick", "ApplyVel", "YouGotXP", "Flames", "ReplicateGear", "GetMapVote", "Vote", "DoVotekick", "TCtullysBigStinkyEvent2", "TCtullysBigStinkyEvent", "MoreFreeBadgesEnjoy", "COMMAND", "Fire", "BurnMe", "ForceTeam", "SCP", "Glitch", "ThrowBall"}
+local dirtyRemotes = { "hmm", "Whizz", "Kick", "ApplyVel", "YouGotXP", "Flames", "ReplicateGear", "GetMapVote", "Vote", "DoVotekick", "TCtullysBigStinkyEvent2", "TCtullysBigStinkyEvent", "MoreFreeBadgesEnjoy", "COMMAND", "Fire", "BurnMe", "ForceTeam", "SCP", "Glitch", "ThrowBall"}
 
 -- Deleting most bindable events.
 for _, v in pairs(player.PlayerGui.Menew:GetChildren()) do
