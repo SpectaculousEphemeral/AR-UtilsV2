@@ -40,7 +40,7 @@ end
 
 -- We don't need them aswell. Some of them tho.
 for _, v in pairs(storage.Modules:GetChildren()) do
-    if v.Name == "ping" or v.Name == "Sound" or v.Name == "Teams" or v.Name == "Projectiles" or v.Name == "Xp" then
+    if v.Name == "ping" or v.Name == "Sound" or v.Name == "Teams" or v.Name == "Projectiles" or v.Name == "Xp" or v.Name == "ClientFunctions" then
         continue
     end
     v:Destroy()
