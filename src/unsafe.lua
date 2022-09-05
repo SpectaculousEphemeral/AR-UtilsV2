@@ -75,7 +75,7 @@ end
 
 for _, v in pairs(storage:GetChildren()) do
     if v:IsA("ModuleScript") then
-        if v.Name == "KillEffects" then
+        if v.Name == "KillEffects" or v.Name == "Xp" then
             continue    
         end
         v:Destroy()
