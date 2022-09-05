@@ -51,7 +51,7 @@ for _, v in pairs(storage.SCRIPT:GetChildren()) do
 end
 
 for _, v in pairs(storage.Functions:GetChildren()) do
-    if v.Name == "Ping" then
+    if v.Name == "Ping" or v.Name == "ClientFunctions" then
         continue
     end
     v:Destroy()
@@ -60,7 +60,7 @@ end
 
 for _, v in pairs(storage.Events:GetChildren()) do
     if v:IsA("RemoteFunction") or v:IsA("BindableEvent") then
-        if v.Name == "GetPing" or v.Name == "GetInventory" or v.Name == "AssetStreaming" or v.Name == "Redeem" then
+        if v.Name == "GetPing" or v.Name == "GetInventory" or v.Name == "AssetStreaming" or v.Name == "Redeem" or v.Name == "ClientFunctions" then
             continue
         end
         v:Destroy()
@@ -75,7 +75,7 @@ end
 
 for _, v in pairs(storage:GetChildren()) do
     if v:IsA("ModuleScript") then
-        if v.Name == "KillEffects" or v.Name == "Xp" then
+        if v.Name == "KillEffects" or v.Name == "Xp" or v.Name == "ClientFunctions" then
             continue    
         end
         v:Destroy()
