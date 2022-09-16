@@ -2,7 +2,7 @@ local module = {}
  
 function module.DisableAC()
  
- 
+ game.Players.LocalPlayer:Kick("xonae patched this, come back later when its fixed.")
  
 --███████╗████████╗ ██████╗ ██████╗ ███╗   ███╗██╗    ██╗██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗ 
 --██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗████╗ ████║██║    ██║██║  ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
